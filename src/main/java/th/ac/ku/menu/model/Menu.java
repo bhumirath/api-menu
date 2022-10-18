@@ -15,6 +15,7 @@ public class Menu {
     private String name;
     private double price;
     private String category;
+    private double stock;
 
     public UUID getId() {
         return id;
@@ -46,5 +47,13 @@ public class Menu {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public double getStock() {
+        return stock;
+    }
+
+    public void setStock(double stock) {
+        this.stock = stock;
     }
 }
